@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a971b7a-bd0a-43ca-9a8c-ebcd646e2d5d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Labs/Lab2/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/Lab2/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Lab2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/Lab2/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,8 +19,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Labs/Lab2/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="14" selection-start-line="14" selection-end-line="15" />
+            <state relative-caret-position="291">
+              <caret line="55" column="65" selection-start-line="55" selection-start-column="65" selection-end-line="55" selection-end-column="65" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Labs/Lab1/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="206">
+              <caret line="23" column="12" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="23" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -56,12 +65,12 @@
       <list>
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/Labs/Lab1/index.html" />
-        <option value="$PROJECT_DIR$/Labs/Lab2/index.html" />
         <option value="$PROJECT_DIR$/Labs/Lab2/index.css" />
+        <option value="$PROJECT_DIR$/Labs/Lab2/index.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="180" />
     <option name="y" value="3" />
     <option name="width" value="1156" />
@@ -144,7 +153,7 @@
       <option name="presentableId" value="Default" />
       <updated>1556587803942</updated>
       <workItem from="1556587813174" duration="5679000" />
-      <workItem from="1556650567241" duration="3284000" />
+      <workItem from="1556650567241" duration="3542000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1556588542673</created>
@@ -199,7 +208,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8963000" />
+    <option name="totallyTimeSpent" value="9221000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -320,13 +329,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Labs/Lab1/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Labs/Lab2/index.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="351">
@@ -334,10 +336,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Labs/Lab1/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="23" column="12" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="23" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Labs/Lab2/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" selection-start-line="14" selection-end-line="15" />
+        <state relative-caret-position="291">
+          <caret line="55" column="65" selection-start-line="55" selection-start-column="65" selection-end-line="55" selection-end-column="65" />
         </state>
       </provider>
     </entry>
