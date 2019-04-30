@@ -1,0 +1,18 @@
+body {
+    background-color: gray;
+    color: white;
+}
+h1, h3 {
+    color: dodgerblue;
+}
+a {
+    color: red;
+}
+
+p {
+    font-family: "Leelawadee UI";
+}
+
+.com {
+    font-style: italic;
+}
