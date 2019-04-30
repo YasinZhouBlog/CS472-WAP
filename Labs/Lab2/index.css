@@ -1,5 +1,5 @@
 body {
-    background-color: gray;
+    background-color: dimgray;
     color: white;
 }
 h1, h3 {
@@ -15,4 +15,8 @@ p {
 
 .com {
     font-style: italic;
+}
+
+.ye {
+    color: yellow;
 }
