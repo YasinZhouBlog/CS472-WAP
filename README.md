@@ -1,5 +1,5 @@
 
-:https://yasinzhoublog.github.io/CS472-WAP/
+<!--https://yasinzhoublog.github.io/CS472-WAP/-->
 
 ## Welcome to Yasin GitHub Pages
 
