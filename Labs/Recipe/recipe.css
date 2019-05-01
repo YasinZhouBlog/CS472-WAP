@@ -4,13 +4,7 @@ body {
     font-size: 11pt;
     font-family: Georgia;
 }
-h2, h4 {
-    color: #A4A400;
-    text-decoration: underline;
-    font-family: "Lucida Sans Unicode";
-    letter-spacing: 0.25em;
-    font-size: 18pt;
-}
+
 blockquote {
     background-color: #FFFFA8;
     font-style: italic;
@@ -20,6 +14,15 @@ blockquote {
 .grayBG {
     background-color: #F0F0F0;
 }
+
+.head {
+    color: #A4A400;
+    text-decoration: underline;
+    font-family: "Lucida Sans Unicode";
+    letter-spacing: 0.25em;
+    font-size: 18pt;
+}
+
 .headTitle {
     text-align: center;
     font-size: 22pt;
