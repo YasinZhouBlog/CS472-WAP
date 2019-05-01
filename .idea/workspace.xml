@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a971b7a-bd0a-43ca-9a8c-ebcd646e2d5d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Labs/Recipe/recipe.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Lab1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/Lab1/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Labs/Lab2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/Lab2/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,10 +20,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Labs/Lab2/index.html">
+        <entry file="file://$PROJECT_DIR$/Labs/Recipe/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="40" column="52" selection-start-line="40" selection-start-column="52" selection-end-line="40" selection-end-column="52" />
+            <state relative-caret-position="246">
+              <caret line="120" column="52" selection-start-line="120" selection-start-column="52" selection-end-line="120" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Labs/Recipe/recipe.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="257">
+              <caret line="34" column="1" lean-forward="true" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -28,17 +40,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Labs/Lab1/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="23" column="12" selection-start-line="20" selection-start-column="8" selection-end-line="23" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Labs/Lab2/index.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+            <state relative-caret-position="-8">
+              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -53,6 +56,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>tsp</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -64,15 +72,16 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/Labs/Lab1/index.html" />
         <option value="$PROJECT_DIR$/Labs/Lab2/index.css" />
+        <option value="$PROJECT_DIR$/Labs/Lab1/index.html" />
         <option value="$PROJECT_DIR$/Labs/Lab2/index.html" />
+        <option value="$PROJECT_DIR$/Labs/Recipe/recipe.css" />
+        <option value="$PROJECT_DIR$/Labs/Recipe/index.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="180" />
-    <option name="y" value="3" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="233" />
     <option name="width" value="1140" />
     <option name="height" value="745" />
   </component>
@@ -105,6 +114,12 @@
               <item name="Labs" type="462c0819:PsiDirectoryNode" />
               <item name="Lab2" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="CS472-WAP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CS472-WAP" type="462c0819:PsiDirectoryNode" />
+              <item name="Labs" type="462c0819:PsiDirectoryNode" />
+              <item name="Recipe" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -128,7 +143,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -153,7 +168,7 @@
       <option name="presentableId" value="Default" />
       <updated>1556587803942</updated>
       <workItem from="1556587813174" duration="5679000" />
-      <workItem from="1556650567241" duration="3750000" />
+      <workItem from="1556650567241" duration="10404000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1556588542673</created>
@@ -208,7 +223,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9429000" />
+    <option name="totallyTimeSpent" value="16083000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -220,7 +235,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="180" y="3" width="1140" height="745" extended-state="0" />
+    <frame x="233" y="0" width="1140" height="745" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
@@ -338,15 +353,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Labs/Lab1/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="23" column="12" selection-start-line="20" selection-start-column="8" selection-end-line="23" selection-end-column="12" />
+        <state relative-caret-position="-8">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Labs/Lab2/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="40" column="52" selection-start-line="40" selection-start-column="52" selection-end-line="40" selection-end-column="52" />
+        <state relative-caret-position="357">
+          <caret line="62" column="14" selection-start-line="62" selection-start-column="14" selection-end-line="62" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Labs/Recipe/recipe.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="34" column="1" lean-forward="true" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Labs/Recipe/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="120" column="52" selection-start-line="120" selection-start-column="52" selection-end-line="120" selection-end-column="52" />
         </state>
       </provider>
     </entry>
