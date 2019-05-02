@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    background-image: url("images/background.png");
+    font-size: 8pt;
+    font-family: Verdana;
+}
+
+.banner {
+    background-image: url("images/bannerbg.png");
+    text-align: center;
+}
+
+.head {
+    text-align: center;
+    font-size: 24pt;
+    font-weight: bold;
+    font-family: Tahoma;
+    text-shadow: 3px 3px #999999;
+}
+
+.movieDiv {
+    display: flex;
+    justify-content: center;
+    /*text-align: center;*/
+    padding-bottom: 20px;
+}
+
+.movie {
+    width: 800px;
+    border: 4px solid gray;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+}
+
+.commentPages {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    line-height: 25px;
+}
+
+.greenBG {
+    background-color: #A2B964;
+}
+
+.movieBanner {
+    background-image: url("images/rbg.png");
+    display: flex;
+    align-items: center;
+}
+
+.movieBannerText {
+    font-weight: bold;
+    font-size: 48pt;
+    color: red;
+}
+
+.column {
+    min-width: 100px;
+    column-count: 2;
+    column-gap: 0;
+}
+
+.comment {
+    break-inside: avoid;
+    padding: 1px;
+}
+
+.commentTextDiv {
+    margin: 5px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    padding: 8px;
+    font-weight: bold;
+    font-size: 8pt;
+    background-color: #E8DC9B;
+    overflow: hidden;
+}
+
+.commentIcon {
+    float: left;
+    margin: 5px;
+}
+
+.commentAuth {
+    display: flex;
+    align-items: center;
+}
+
+.commentAuthItalic {
+    font-style: italic;
+}
+
+.movieInfoDiv {
+    float: right;
+    height: 100%;
+    width: 250px;
+}
+
+dl {
+    padding: 10pt;
+    font-size: 8pt;
+    font-family: Arial;
+}
+
+dt {
+    font-weight: bold;
+    font-size: 10pt;
+}
+
+#validators {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    opacity: 0.5;
+}
