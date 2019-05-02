@@ -9,16 +9,16 @@
     <link href="images/heart.gif" rel="shortcut icon" type="image/gif"/>
     <!--    <link href="nerdluv.css" rel="stylesheet" type="text/css"/>-->
 
-    <!--    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"-->
-    <!--            type="text/javascript"></script>-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"
+            type="text/javascript"></script>
     <!--    <script src="provided.js" type="text/javascript"></script>-->
-    <script src="https://cdn.staticfile.org/angular.js/1.4.6/angular.min.js"></script>
+    <!--    <script src="https://cdn.staticfile.org/angular.js/1.4.6/angular.min.js"></script>-->
 </head>
 
 <body ng-app="">
 <!-- 注意，一定要双引号在包含单引号 -->
-<div ng-include="'top.html'"></div>
-
+<!--<div ng-include="'top.html'"></div>-->
+<div id="page1"></div>
 
 <!--<header>-->
 <!--    <img alt="banner logo" src="images/nerdluv.png"/> <br/>-->
@@ -68,7 +68,12 @@
     </fieldset>
 </form>
 
-<div ng-include="'bottom.html'"></div>
+<!--<div ng-include="'bottom.html'"></div>-->
+<div id="page2"></div>
+<script>
+    $("#page1").load("top.html");
+    $("#page2").load("bottom.html");
+</script>
 <!--&lt;!&ndash; shared page bottom HTML &ndash;&gt;-->
 <!--<p>-->
 <!--    This page is for single nerds to meet and date each other! Type in your-->
