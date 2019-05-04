@@ -1,0 +1,41 @@
+1. What is the difference between a web server and a web container?
+
+	Web server: serves content to the web using http protocol. Such as apache, ngix, IIs.
+	Web container: it can handle servlets, asp, php, cgi, it can also handle static web pages, which is not professional, such as Tomcat.
+	Application server: hosts and exposes business logic and processes.
+
+
+2. What is a servlet?
+	Servlet is a Java program that runs in a web container.
+
+3. How do web servers and web containers interact with servlets?
+	Container receives new request for a servlet
+	Creates HttpServletRequest and HttpServletResponse objects
+	Calls service method on HttpServlet object in thread
+	When thread completes, converts response object into HTTP response message
+
+4. Who creates request objects?
+	The servlet container creates an instance of the interface type HttpServletRequest to represent the details of a single HTTP request, which is passed to a servlet's service method
+
+5. What are the states in the servlet lifecycle?
+	1. Load servlet class (Class c = Class.forname(...))
+	2. Instantiate servlet (c.newInstance());
+	3. init() called only once in the servlet's life.
+	Must complete before Container can call service().
+	4. service() (called for each request, each request runs in
+	a separate thread)
+	5. destroy() (called only once)
+
+6. Who calls init and when?
+	The Container calls init() on the servlet instance after the servlet instance is created but before the servlet can service any client requests.
+
+7. Which of init, service, and doGet should you override?
+	ALWAYS at least ONE of them! (doGet() or doPost()) 
+
+8. In what sense are servlets multi-threaded?
+	If servlets wont be mulithreaded then for each new request a new servlet instance will be created.Which means every time the loading, initialization process will take place. Which will take lot of time. Means performance issue. But if we will handle each request in threads then the the same process wont repeat. So performance will be better.
+
+
+9. What are the implications of this for servlet instance variables?
+	The web container creates only one instance of the servlet at first request only by calling the newInstance() method. The servlets are shared among every request. Do not assign request or session scoped data as servlet instance variables, but just as method local variables.
+	
