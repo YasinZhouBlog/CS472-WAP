@@ -1,0 +1,22 @@
+* {
+    font-size: 11pt;
+    font-family: "Verdana", "Geneva", sans-serif;
+}
+form {
+    width: 35em;
+}
+fieldset {
+    background-color: #E0E0FF;
+    border: 2px outset gray;
+    border-radius: 10px;
+    line-height: 30px;
+}
+legend {
+    background-color: white;
+    border: 2px outset gray;
+    padding: 0.2em;
+}
+fieldset strong {
+    float: left;
+    width: 11em;
+}
