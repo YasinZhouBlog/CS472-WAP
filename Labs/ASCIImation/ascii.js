@@ -9,7 +9,7 @@ let checkbox = document.getElementById("checkbox");
 animationSelect.onchange = animationChange;
 startButton.onclick = startAnimation;
 stopButton.onclick = stopAnimation;
-sizeSelect.onchange = changeSize;
+sizeSelect.onchange = makeSize();
 checkbox.onchange = changeSpeed;
 
 let speed = 250;
@@ -78,7 +78,8 @@ function changeSize() {
 
 function makeSize(size) {
     return function f() {
-        
+        let size = sizeSelect.options[sizeSelect.selectedIndex].value;
+        view.style.fontSize = size + "pt";
     };
 }
 
