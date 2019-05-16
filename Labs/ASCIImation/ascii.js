@@ -60,6 +60,7 @@ function clearTheAnimation() {
 }
 
 function startTheAnimation() {
+    console.log(animation.value().length);
     if (!animation.value()[0]) {
         stopAnimation();
         return;
@@ -91,4 +92,40 @@ function changeSpeed() {
     }
     stopAnimation();
     startAnimation();
+}
+
+var a = {
+    name: "free",
+    major: "music",
+    smallest: function (a, b) {
+        if (a < b) {
+            return a;
+        } else if (a > b) {
+            return b;
+        } else {
+            return Math.sqrt(a);
+        }
+    }
+}
+
+function Employee(name, salary, position) {
+    this.name = name;
+    this.salary = salary;
+    this.position = position;
+}
+
+var e1 = new Employee("name1", 1000, "position1");
+var e2 = new Employee("name2", 1500, "position2");
+var e3 = new Employee("name3", 1300, "position3");
+
+function f() {
+    let sum = 0;
+    for (let i = 0; i < arguments.length; ++i) {
+        sum += arguments[i];
+    }
+    return sum;
+}
+
+var f1 = (a,b,c) => {
+    return Math.max(a,b,c);
 }
