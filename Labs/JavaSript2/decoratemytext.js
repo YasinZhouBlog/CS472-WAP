@@ -29,16 +29,5 @@ function click() {
     setInterval(largerText, 500);
 }
 
-function bar() {
-    var foo ;
-    if (!foo) {
-        let foo = 10;
-    }
-    alert(foo);
-}
-
-bar();
-
-
 document.getElementById("BiggerButton").onclick = click;
 document.getElementById("CheckBox").onchange = boldText;
